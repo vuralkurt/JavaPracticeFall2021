@@ -20,7 +20,7 @@ aşağıdaki kod blogunun çıktısı ne olur?
 // A) x = 3
 //    i = 0
 
-// B) x = 6
+// B) x = 6   ***
 //    i = 3
 
 // C) x = 9

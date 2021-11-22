@@ -10,14 +10,23 @@ public class Q14 {
         hespalayan fonksiyonu yazınız.
 
         Örnek Ekran Çıktıları
-        Bir sayi giriniz: 6
+        Bir sayi giriniz: 6*5*4*3*2*1=720
         Faktöriyeli: 720
 
-        Bir sayı giriniz: 3
+        Bir sayı giriniz: 3*2*1
         Faktöriyeli 6
      */
+        Scanner scan = new Scanner(System.in);
+        System.out.print("bir sayi giriniz : ");
+        int sayi =scan.nextInt();
 
+        int faktoriyel=1;
 
+        while(sayi>0){
+            faktoriyel *= sayi;
+            sayi--;
+        }
+        System.out.println("faktoriyel :"+faktoriyel);
     }
 }
 

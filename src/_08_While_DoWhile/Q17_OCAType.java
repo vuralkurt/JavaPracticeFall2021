@@ -9,8 +9,9 @@ aşağıdaki kod bloğunun çıktısı ne olur?
 
         int i = 3;
         while (i < 6) {
-            System.out.println(i);
+            //System.out.println(i);
             i += 1;
+            System.out.println(i);
         }
 
     }

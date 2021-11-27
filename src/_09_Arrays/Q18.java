@@ -13,12 +13,10 @@ public class Q18 {
 
         int count[] = new int[256];
 
-        for (int i = 0; i < str.length(); i++)
+        for (int i = 0; i < str.length(); i++) {
 
             count[str.charAt(i)]++;
-
-        System.out.println(Arrays.toString(count));
-
+        }
         char ch[] = new char[str.length()];
 
         for (int i = 0; i < str.length(); i++) {
@@ -34,7 +32,9 @@ public class Q18 {
             }
 
             if (find == 1)
-                System.out.print(str.charAt(i) + " = " + count[str.charAt(i)]);
+                System.out.print(str.charAt(i) + " = " + count[str.charAt(i)] + ",  ");
         }
     }
 }
+    
+

@@ -1,6 +1,7 @@
 package _10_ENUM.Ex04;
 
 public enum Aylar {
+    //OCAK(31,"kıs","ali"),
     OCAK(31),
     SUBAT(28),
     MART(31),
@@ -17,9 +18,14 @@ public enum Aylar {
     int days;
 
     /*
-    22-24 komut blogu atama yapıldıgında run olur.
+    30-33 komut blogu atama yapıldıgında run olur.
     Aylar(int gunMiktari){days=gunMiktari;}
 
+     */
+    /*
+    Aylar(int gunMiktari,String mevsim,String dGunu){
+        days=gunMiktari;
+    }
      */
     Aylar(int gunMiktari){
         days=gunMiktari;

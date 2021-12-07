@@ -4,12 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Runner {
+public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String islem;
-        Registration userReg = new Registration();
-        ArrayList<User> register = null;
+
+        Kayit yeniKayit = new Kayit();
+        List<Kullanici> kisi = new ArrayList<>();
+
         boolean cikilsinMi = false;
         while (!cikilsinMi) {
             System.out.println("lutfen \n " +
@@ -20,14 +22,13 @@ public class Runner {
             islem = scan.next();
             switch (islem) {
                 case "1":
-                    register = (ArrayList<User>) userReg.register();
+                    kisi = yeniKayit.kayitAl();
                     break;
                 case "2":
-
-                    userReg.listele(register);
+                    yeniKayit.listele(kisi);
                     break;
                 case "3":
-                    userReg.printHappyUsers(register);
+                    yeniKayit.sansliKull(kisi);
                     break;
                 case "4":
                     cikilsinMi = true;
@@ -37,8 +38,6 @@ public class Runner {
                     break;
 
             }
-
-
         }
     }
 }

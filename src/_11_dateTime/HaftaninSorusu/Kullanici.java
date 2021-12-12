@@ -8,8 +8,8 @@ public class Kullanici {
     LocalDateTime kayitZamani;
     public Kullanici(){// p'siz cons.
     }
-    public Kullanici(String name, LocalDateTime registerDate) { //p'li fields li cons.
+    public Kullanici(String name, LocalDateTime kayitZamani) { //p'li fields li cons.
         this.name = name;
-        this.kayitZamani = registerDate;
+        this.kayitZamani = kayitZamani;
     }
 }

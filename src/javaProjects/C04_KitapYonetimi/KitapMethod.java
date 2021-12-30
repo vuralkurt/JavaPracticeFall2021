@@ -1,4 +1,4 @@
-package javaProjects.kitapYonetimi;
+package javaProjects.C04_KitapYonetimi;
 
 import java.util.List;
 import java.util.Scanner;

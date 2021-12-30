@@ -1,4 +1,4 @@
-package javaProjects;
+package javaProjects.C01_Banka;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

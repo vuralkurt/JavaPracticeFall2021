@@ -1,4 +1,4 @@
-package javaProjects.kitapYonetimi;
+package javaProjects.C04_KitapYonetimi;
 
 public class Kitap {
  private  int no;
@@ -60,12 +60,13 @@ public Kitap(){
 
     @Override
     public String toString() {//bu method obj fields'ini yazdirir.
-        return "Kitap{" +
+        return "Kitap" +
                 "no=" + no +
                 ", kitapAdi='" + kitapAdi + '\'' +
                 ", yazarAdi='" + yazarAdi + '\'' +
                 ", yayinyili=" + yayinyili +
-                ", fiyat=" + fiyat +
-                '}';
+                ", fiyat=" + fiyat ;
     }
+
+
 }

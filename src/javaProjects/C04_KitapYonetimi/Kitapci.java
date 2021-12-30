@@ -1,10 +1,7 @@
-package javaProjects.kitapYonetimi;
-
-import javaProjects.okulYonetimi.Kisi;
+package javaProjects.C04_KitapYonetimi;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 /*
 	1.	Kullanıcının Kitap ekleme, silme ve listeleme gibi
